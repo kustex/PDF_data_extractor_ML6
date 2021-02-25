@@ -1,12 +1,7 @@
-
-from os import listdir
-from os.path import isfile, join
 import textract as tx
 import pandas as pd
 import re
 import os
-
-directory = '../data/'
 
 def check_if_title(sentence):
     sentence = str(sentence)
@@ -29,6 +24,26 @@ def check_if_title(sentence):
     else:
         return 0
 
+def clean_text(text):
+    # remove unwanted chars
+    text = re.sub(r'[^\w]', ' ', text)
+    # remove starting and trailing spaces
+    text = text.lstrip()
+    text = text.rstrip()
+    # make everything lowercase
+    text = text.lower()
+    # delete multiple spaces
+    text = re.sub(' +', ' ', text)
+    # limit to 256 words
+    wordlist = text.split()
+    words_text = len([item for item in wordlist])
+    if words_text < 256:
+        wordlist = [item[:] for item in wordlist]
+    else:
+        wordlist = [item[:256] for item in wordlist]
+    text = ' '.join([str(elem) for elem in wordlist])
+    return text
+
 def df_from_text(path):
     text = tx.process(path)
     text = text.decode('utf-8')
@@ -41,7 +56,7 @@ def df_from_text(path):
     df_text = pd.DataFrame(data=d)
     df_text['title'] = 0
 
-    df_text["sentence"] = df_text["sentence"].str.lower()
+    df_text["sentence"] = df_text['sentence'].apply(lambda x: clean_text(x))
     df_text['title'] = df_text['sentence'].map(lambda a: check_if_title(a))
     return df_text
 

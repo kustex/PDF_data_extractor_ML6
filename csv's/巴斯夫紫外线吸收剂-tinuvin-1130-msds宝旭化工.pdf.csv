@@ -1,0 +1,755 @@
+,sentence,title,key,value
+0,safety data sheet,0,0,0
+1,page 1 14,0,0,0
+2,basf safety data sheet according to un ghs 4th rev,0,0,0
+3,date revised 21 11 2017,0,0,0
+4,product tinuvin 1130,0,0,0
+5,,0,0,0
+6,version 3 0,0,0,0
+7,id no 30080322 sds_gen_00 en,0,0,0
+8,date of print 22 11 2017,0,0,0
+9,,0,0,0
+10,1 identification,1,0,0
+11,product identifier,0,0,0
+12,,0,0,0
+13,tinuvin 1130,0,0,0
+14,chemical name reaction mass of alpha 3 3 2h benzotriazol 2 yl 5 tert butyl 4hydroxyphenyl propionyl omega hydroxypoly oxyethylene and alpha 3 3 2h benzotriazol 2 yl 5tert butyl 4 hydroxyphenyl propionyl omega 3 3 2h benzotriazol 2 yl 5 tert butyl 4hydroxyphenyl propionyloxypoly oxyethylene,0,0,0
+15,index number 607 176 00 3,0,0,0
+16,,0,0,0
+17,relevant identified uses of the substance or mixture and uses advised against,0,0,0
+18,relevant identified uses stabilizer,0,0,0
+19,,0,0,0
+20,details of the supplier of the safety data sheet,0,0,0
+21,company,0,0,0
+22,basf se,0,0,0
+23,67056 ludwigshafen,0,0,0
+24,germany,0,0,0
+25,regional business unit dispersions and,0,0,0
+26,resins europe,0,0,0
+27,telephone 49 621 60 90799,0,0,0
+28,e mail address ed psr basf com,0,0,0
+29,,0,0,0
+30,emergency telephone number,0,0,0
+31,international emergency number,0,0,0
+32,telephone 49 180 2273 112,0,0,0
+33,,0,0,0
+34,2 hazards identification,1,0,0
+35,classification of the substance or mixture,0,0,0
+36,,0,0,0
+37,page 2 14,0,0,0
+38,basf safety data sheet according to un ghs 4th rev,0,0,0
+39,date revised 21 11 2017,0,0,0
+40,product tinuvin 1130,0,0,0
+41,,0,0,0
+42,version 3 0,0,0,0
+43,id no 30080322 sds_gen_00 en,0,0,0
+44,date of print 22 11 2017,0,0,0
+45,,0,0,0
+46,according to un ghs criteria,0,0,0
+47,skin sens 1a,0,0,0
+48,aquatic acute 2,0,0,0
+49,aquatic chronic 2,0,0,0
+50,for the classifications not written out in full in this section the full text can be found in section 16,0,0,0
+51,,0,0,0
+52,label elements,0,0,0
+53,globally harmonized system ghs,0,0,0
+54,pictogram,0,0,0
+55,,0,0,0
+56,signal word,0,0,0
+57,warning,0,0,0
+58,hazard statement,0,0,0
+59,h317,0,0,0
+60,h401,0,0,0
+61,h411,0,0,0
+62,,0,0,0
+63,may cause an allergic skin reaction,0,0,0
+64,toxic to aquatic life,0,0,0
+65,toxic to aquatic life with long lasting effects,0,0,0
+66,,0,0,0
+67,precautionary statements prevention,0,0,0
+68,p280,0,0,0
+69,wear protective gloves,0,0,0
+70,p261,0,0,0
+71,avoid breathing dust fume gas mist vapours spray,0,0,0
+72,p273,0,0,0
+73,avoid release to the environment,0,0,0
+74,p272,0,0,0
+75,contaminated work clothing should not be allowed out of the workplace,0,0,0
+76,precautionary statements response,0,0,0
+77,p303 p352,0,0,0
+78,if on skin or hair wash with plenty of soap and water,0,0,0
+79,p333 p311,0,0,0
+80,if skin irritation or rash occurs call a poison center or,0,0,0
+81,doctor physician,0,0,0
+82,p362 p364,0,0,0
+83,take off contaminated clothing and wash it before reuse,0,0,0
+84,p391,0,0,0
+85,collect spillage,0,0,0
+86,precautionary statements disposal,0,0,0
+87,p501,0,0,0
+88,dispose of contents container to hazardous or special waste collection,0,0,0
+89,point,0,0,0
+90,,0,0,0
+91,according to un ghs criteria,0,0,0
+92,hazard determining component s for labelling hydroxyphenyl benzotriazole derivative,0,0,0
+93,,0,0,0
+94,other hazards,0,0,0
+95,,0,0,0
+96,page 3 14,0,0,0
+97,basf safety data sheet according to un ghs 4th rev,0,0,0
+98,date revised 21 11 2017,0,0,0
+99,product tinuvin 1130,0,0,0
+100,,0,0,0
+101,version 3 0,0,0,0
+102,id no 30080322 sds_gen_00 en,0,0,0
+103,date of print 22 11 2017,0,0,0
+104,,0,0,0
+105,according to un ghs criteria,0,0,0
+106,no specific dangers known if the regulations notes for storage and handling are considered,0,0,0
+107,,0,0,0
+108,3 composition information on ingredients,1,0,0
+109,substances,0,0,0
+110,chemical nature,0,0,0
+111,light stabilizer,0,0,0
+112,poly oxy 1 2 ethanediyl alpha 3 3 2h benzotriazol 2 yl 5 1 1 dimethylethyl 4 hydroxyphenyl 1 oxopropyl omega hydroxy content w w 25 75,0,0,0
+113,cas number 104810 48 2,0,0,0
+114,poly oxy 1 2 ethanediyl alpha 3 3 2h benzotriazol 2 yl 5 1 1 dimethylethyl 4 hydroxyphenyl 1 oxopropyl omega 3 3 2 h benzotriazol 2 yl 5 1 1 dimethylethyl 4 hydroxyphenyl 1oxopropoxy content w w 25 50,0,0,0
+115,cas number 104810 47 1,0,0,0
+116,,0,0,0
+117,hazardous ingredients ghs,0,0,0
+118,according to un ghs criteria,0,0,0
+119,benzenepropanoic acid 3 2h benzotriazol 2 yl 5 1 1 dimethylethyl 4 hydroxy methyl ester,0,0,0
+120,content w w 1 3,0,0,0
+121,aquatic chronic 4,0,0,0
+122,cas number 84268 33 7,0,0,0
+123,h413,0,0,0
+124,ec number 400 820 2,0,0,0
+125,,0,0,0
+126,poly oxy 1 2 ethanediyl alpha 3 3 2h benzotriazol 2 yl 5 1 1 dimethylethyl 4 hydroxyphenyl 1 oxopropyl omega 3 3 2h,0,0,0
+127,content w w 25 50 skin sens 1a,0,0,0
+128,cas number 104810 47 1,0,0,0
+129,aquatic acute 2,0,0,0
+130,aquatic chronic 2,0,0,0
+131,h317 h401 h411,0,0,0
+132,,0,0,0
+133,poly oxy 1 2 ethanediyl alpha 3 3 2h benzotriazol 2 yl 5 1 1 dimethylethyl 4 hydroxyphenyl 1 oxopropyl omega hydroxycontent w w 25 75 skin sens 1a,0,0,0
+134,cas number 104810 48 2,0,0,0
+135,aquatic acute 2,0,0,0
+136,aquatic chronic 2,0,0,0
+137,h317 h401 h411,0,0,0
+138,,0,0,0
+139,for the classifications not written out in full in this section the full text can be found in section 16,0,0,0
+140,,0,0,0
+141,page 4 14,0,0,0
+142,basf safety data sheet according to un ghs 4th rev,0,0,0
+143,date revised 21 11 2017,0,0,0
+144,product tinuvin 1130,0,0,0
+145,,0,0,0
+146,version 3 0,0,0,0
+147,id no 30080322 sds_gen_00 en,0,0,0
+148,date of print 22 11 2017,0,0,0
+149,,0,0,0
+150,mixtures,0,0,0
+151,not applicable,0,0,0
+152,,0,0,0
+153,4 first aid measures,1,0,0
+154,description of first aid measures,0,0,0
+155,immediately remove contaminated clothing,0,0,0
+156,if inhaled,0,0,0
+157,if difficulties occur after vapour aerosol has been inhaled remove to fresh air and seek medical,0,0,0
+158,attention,0,0,0
+159,on skin contact,0,0,0
+160,wash thoroughly with soap and water,0,0,0
+161,on contact with eyes,0,0,0
+162,wash affected eyes for at least 15 minutes under running water with eyelids held open,0,0,0
+163,on ingestion,0,0,0
+164,rinse mouth immediately and then drink plenty of water seek medical attention,0,0,0
+165,,0,0,0
+166,most important symptoms and effects both acute and delayed,0,0,0
+167,symptoms the most important known symptoms and effects are described in the labelling see,0,0,0
+168,section 2 and or in section 11 further important symptoms and effects are so far not known,0,0,0
+169,,0,0,0
+170,indication of any immediate medical attention and special treatment needed,0,0,0
+171,treatment treat according to symptoms decontamination vital functions no known specific,0,0,0
+172,antidote,0,0,0
+173,,0,0,0
+174,5 fire fighting measures,1,0,0
+175,extinguishing media,0,0,0
+176,suitable extinguishing media,0,0,0
+177,water spray dry powder foam,0,0,0
+178,unsuitable extinguishing media for safety reasons,0,0,0
+179,water jet,0,0,0
+180,,0,0,0
+181,special hazards arising from the substance or mixture,0,0,0
+182,harmful vapours,0,0,0
+183,evolution of fumes fog the substances groups of substances mentioned can be released in case of,0,0,0
+184,fire,0,0,0
+185,,0,0,0
+186,advice for fire fighters,0,0,0
+187,special protective equipment,0,0,0
+188,,0,0,0
+189,page 5 14,0,0,0
+190,basf safety data sheet according to un ghs 4th rev,0,0,0
+191,date revised 21 11 2017,0,0,0
+192,product tinuvin 1130,0,0,0
+193,,0,0,0
+194,version 3 0,0,0,0
+195,id no 30080322 sds_gen_00 en,0,0,0
+196,date of print 22 11 2017,0,0,0
+197,,0,0,0
+198,wear a self contained breathing apparatus,0,0,0
+199,further information,0,0,0
+200,the degree of risk is governed by the burning substance and the fire conditions contaminated,0,0,0
+201,extinguishing water must be disposed of in accordance with official regulations,0,0,0
+202,,0,0,0
+203,6 accidental release measures,1,0,0
+204,personal precautions protective equipment and emergency procedures,0,0,0
+205,use personal protective clothing breathing protection required,0,0,0
+206,,0,0,0
+207,environmental precautions,0,0,0
+208,contain contaminated water firefighting water do not discharge into drains surface,0,0,0
+209,waters groundwater,0,0,0
+210,,0,0,0
+211,methods and material for containment and cleaning up,0,0,0
+212,for large amounts pump off product,0,0,0
+213,for residues pick up with suitable absorbent material dispose of absorbed material in accordance,0,0,0
+214,with regulations,0,0,0
+215,,0,0,0
+216,7 handling and storage,1,0,0
+217,precautions for safe handling,0,0,0
+218,no special measures necessary provided product is used correctly,0,0,0
+219,protection against fire and explosion,0,0,0
+220,take precautionary measures against static discharges,0,0,0
+221,,0,0,0
+222,conditions for safe storage including any incompatibilities,0,0,0
+223,further information on storage conditions keep container tightly closed and dry store in a cool,0,0,0
+224,place,0,0,0
+225,,0,0,0
+226,specific end use s,0,0,0
+227,see exposure scenario s in the attachment to this safety data sheet,0,0,0
+228,,0,0,0
+229,8 exposure controls personal protection,1,0,0
+230,control parameters,0,0,0
+231,components with occupational exposure limits,0,0,0
+232,,0,0,0
+233,25322 68 3 polyethylene glycol,0,0,0
+234,,0,0,0
+235,exposure controls,0,0,0
+236,,0,0,0
+237,page 6 14,0,0,0
+238,basf safety data sheet according to un ghs 4th rev,0,0,0
+239,date revised 21 11 2017,0,0,0
+240,product tinuvin 1130,0,0,0
+241,,0,0,0
+242,version 3 0,0,0,0
+243,id no 30080322 sds_gen_00 en,0,0,0
+244,date of print 22 11 2017,0,0,0
+245,,0,0,0
+246,personal protective equipment,0,0,0
+247,respiratory protection,0,0,0
+248,suitable respiratory protection for higher concentrations or long term effect gas filter for,0,0,0
+249,gases vapours of organic compounds boiling point 65 c e g en 14387 type a,0,0,0
+250,hand protection,0,0,0
+251,chemical resistant protective gloves en 374,0,0,0
+252,suitable materials also with prolonged direct contact recommended protective index 6,0,0,0
+253,corresponding 480 minutes of permeation time according to en 374,0,0,0
+254,e g nitrile rubber 0 4 mm chloroprene rubber 0 5 mm polyvinylchloride 0 7 mm and other,0,0,0
+255,supplementary note the specifications are based on tests literature data and information of glove,0,0,0
+256,manufacturers or are derived from similar substances by analogy due to many conditions e g,0,0,0
+257,temperature it must be considered that the practical usage of a chemical protective glove in,0,0,0
+258,practice may be much shorter than the permeation time determined through testing,0,0,0
+259,manufacturer s directions for use should be observed because of great diversity of types,0,0,0
+260,eye protection,0,0,0
+261,safety glasses with side shields frame goggles e g en 166,0,0,0
+262,body protection,0,0,0
+263,body protection must be chosen depending on activity and possible exposure e g apron protecting,0,0,0
+264,boots chemical protection suit according to en 14605 in case of splashes or en iso 13982 in case,0,0,0
+265,of dust,0,0,0
+266,general safety and hygiene measures,0,0,0
+267,handle in accordance with good industrial hygiene and safety practice wearing of closed work,0,0,0
+268,clothing is required additionally to the stated personal protection equipment when using do not eat,0,0,0
+269,drink or smoke hands and or face should be washed before breaks and at the end of the shift at,0,0,0
+270,the end of the shift the skin should be cleaned and skin care agents applied,0,0,0
+271,,0,0,0
+272,9 physical and chemical properties,1,0,0
+273,information on basic physical and chemical properties,0,0,0
+274,form,0,0,0
+275,colour,0,0,0
+276,odour,0,0,0
+277,odour threshold,0,0,0
+278,ph value,0,0,0
+279,,0,0,0
+280,freezing point,0,0,0
+281,boiling point,0,0,0
+282,flash point,0,0,0
+283,,0,0,0
+284,liquid viscous,0,0,0
+285,yellow to brownish,0,0,0
+286,odourless,0,0,0
+287,not determined,0,0,0
+288,approx 6 5,0,0,0
+289,10 g l 20 25 c,0,0,0
+290,as suspension,0,0,0
+291,30 c,0,0,0
+292,1 013 hpa,0,0,0
+293,166 c,0,0,0
+294,0 011 kpa,0,0,0
+295,218 c,0,0,0
+296,,0,0,0
+297,screening test,0,0,0
+298,oecd guideline 103,0,0,0
+299,din en 22719 iso 2719,0,0,0
+300,closed cup,0,0,0
+301,,0,0,0
+302,page 7 14,0,0,0
+303,basf safety data sheet according to un ghs 4th rev,0,0,0
+304,date revised 21 11 2017,0,0,0
+305,product tinuvin 1130,0,0,0
+306,,0,0,0
+307,version 3 0,0,0,0
+308,id no 30080322 sds_gen_00 en,0,0,0
+309,date of print 22 11 2017,0,0,0
+310,,0,0,0
+311,evaporation rate,0,0,0
+312,flammability,0,0,0
+313,lower explosion limit,0,0,0
+314,,0,0,0
+315,not determined,0,0,0
+316,product is combustible,0,0,0
+317,for liquids not relevant for,0,0,0
+318,classification and labelling the,0,0,0
+319,lower explosion point may be 5 15,0,0,0
+320,c below the flash point,0,0,0
+321,,0,0,0
+322,upper explosion limit,0,0,0
+323,for liquids not relevant for,0,0,0
+324,classification and labelling,0,0,0
+325,ignition temperature,0,0,0
+326,405 c,0,0,0
+327,vapour pressure,0,0,0
+328,0 0048 hpa,0,0,0
+329,25 c,0,0,0
+330,density,0,0,0
+331,1 17 g cm3,0,0,0
+332,20 c,0,0,0
+333,relative density,0,0,0
+334,approx 1 17,0,0,0
+335,20 c,0,0,0
+336,relative vapour density air,0,0,0
+337,not determined,0,0,0
+338,solubility in water,0,0,0
+339,0 0077 g l,0,0,0
+340,20 c 1 013 hpa,0,0,0
+341,solubility quantitative solvent s standard fat,0,0,0
+342,113 g kg,0,0,0
+343,37 c,0,0,0
+344,partitioning coefficient n octanol water log kow 1 3 5 9,0,0,0
+345,25 c ph value 7,0,0,0
+346,self ignition,0,0,0
+347,based on its structural properties the,0,0,0
+348,product is not classified as selfigniting,0,0,0
+349,thermal decomposition 250 c,0,0,0
+350,viscosity dynamic,0,0,0
+351,7 400 mpa s,0,0,0
+352,20 c 61 9 1 s,0,0,0
+353,explosion hazard,0,0,0
+354,not explosive,0,0,0
+355,fire promoting properties based on its structural properties,0,0,0
+356,the product is not classified as,0,0,0
+357,oxidizing,0,0,0
+358,,0,0,0
+359,din 51794,0,0,0
+360,oecd guideline 104,0,0,0
+361,,0,0,0
+362,directive 84 449 eec a 6,0,0,0
+363,,0,0,0
+364,oecd guideline 117,0,0,0
+365,test type spontaneous selfignition at room temperature,0,0,0
+366,,0,0,0
+367,din 53019,0,0,0
+368,directive 84 449 eec a 14,0,0,0
+369,,0,0,0
+370,other information,0,0,0
+371,pka,0,0,0
+372,adsorption water soil,0,0,0
+373,adsorption water soil,0,0,0
+374,surface tension,0,0,0
+375,grain size distribution,0,0,0
+376,,0,0,0
+377,9 23,0,0,0
+378,25 c,0,0,0
+379,koc 14618 log koc 4 2,0,0,0
+380,,0,0,0
+381,calculated,0,0,0
+382,calculated,0,0,0
+383,oecd guideline 106,0,0,0
+384,,0,0,0
+385,study technically not feasible,0,0,0
+386,47 5 mn m,0,0,0
+387,directive 84 449 eec a 5,0,0,0
+388,20 c 1 g l,0,0,0
+389,ring method,0,0,0
+390,the substance product is marketed or used in a non solid or,0,0,0
+391,granular form,0,0,0
+392,,0,0,0
+393,page 8 14,0,0,0
+394,basf safety data sheet according to un ghs 4th rev,0,0,0
+395,date revised 21 11 2017,0,0,0
+396,product tinuvin 1130,0,0,0
+397,,0,0,0
+398,version 3 0,0,0,0
+399,id no 30080322 sds_gen_00 en,0,0,0
+400,date of print 22 11 2017,0,0,0
+401,,0,0,0
+402,10 stability and reactivity,1,0,0
+403,reactivity,0,0,0
+404,no hazardous reactions if stored and handled as prescribed indicated,0,0,0
+405,,0,0,0
+406,chemical stability,0,0,0
+407,the product is stable if stored and handled as prescribed indicated,0,0,0
+408,,0,0,0
+409,possibility of hazardous reactions,0,0,0
+410,no hazardous reactions when stored and handled according to instructions,0,0,0
+411,,0,0,0
+412,conditions to avoid,0,0,0
+413,see msds section 7 handling and storage,0,0,0
+414,,0,0,0
+415,incompatible materials,0,0,0
+416,substances to avoid,0,0,0
+417,strong acids strong bases strong oxidizing agents,0,0,0
+418,,0,0,0
+419,hazardous decomposition products,0,0,0
+420,hazardous decomposition products,0,0,0
+421,no hazardous decomposition products if stored and handled as prescribed indicated,0,0,0
+422,,0,0,0
+423,11 toxicological information,1,0,0
+424,information on toxicological effects,0,0,0
+425,acute toxicity,0,0,0
+426,assessment of acute toxicity,0,0,0
+427,virtually nontoxic after a single ingestion virtually nontoxic by inhalation virtually nontoxic after a,0,0,0
+428,single skin contact,0,0,0
+429,experimental calculated data,0,0,0
+430,ld50 rat oral 5 000 mg kg oecd guideline 401,0,0,0
+431,no mortality was observed,0,0,0
+432,lc50 rat by inhalation 5 8 mg l 4 h oecd guideline 403,0,0,0
+433,no mortality was observed,0,0,0
+434,ld50 rat dermal 2 000 mg kg oecd guideline 402,0,0,0
+435,no mortality was observed,0,0,0
+436,irritation,0,0,0
+437,,0,0,0
+438,page 9 14,0,0,0
+439,basf safety data sheet according to un ghs 4th rev,0,0,0
+440,date revised 21 11 2017,0,0,0
+441,product tinuvin 1130,0,0,0
+442,,0,0,0
+443,version 3 0,0,0,0
+444,id no 30080322 sds_gen_00 en,0,0,0
+445,date of print 22 11 2017,0,0,0
+446,,0,0,0
+447,assessment of irritating effects,0,0,0
+448,not irritating to the skin not irritating to the eyes,0,0,0
+449,,0,0,0
+450,experimental calculated data,0,0,0
+451,skin corrosion irritation rabbit non irritant oecd guideline 404,0,0,0
+452,serious eye damage irritation rabbit non irritant oecd guideline 405,0,0,0
+453,respiratory skin sensitization,0,0,0
+454,assessment of sensitization,0,0,0
+455,caused skin sensitization in animal studies,0,0,0
+456,experimental calculated data,0,0,0
+457,guinea pig maximization test guinea pig skin sensitizing oecd guideline 406,0,0,0
+458,germ cell mutagenicity,0,0,0
+459,assessment of mutagenicity,0,0,0
+460,the substance was not mutagenic in bacteria the substance was not mutagenic in mammalian cell,0,0,0
+461,culture the substance was not mutagenic in studies with mammals,0,0,0
+462,carcinogenicity,0,0,0
+463,assessment of carcinogenicity,0,0,0
+464,no data was available concerning carcinogenic activity,0,0,0
+465,reproductive toxicity,0,0,0
+466,assessment of reproduction toxicity,0,0,0
+467,the results of animal studies gave no indication of a fertility impairing effect animal studies gave no,0,0,0
+468,indication of a developmental toxic effect at doses that were not toxic to the parental animals,0,0,0
+469,developmental toxicity,0,0,0
+470,assessment of teratogenicity,0,0,0
+471,in animal studies the substance did not cause malformations,0,0,0
+472,specific target organ toxicity single exposure,0,0,0
+473,assessment of stot single,0,0,0
+474,based on the available information there is no specific target organ toxicity to be expected after a,0,0,0
+475,single exposure,0,0,0
+476,,0,0,0
+477,repeated dose toxicity and specific target organ toxicity repeated exposure,0,0,0
+478,assessment of repeated dose toxicity,0,0,0
+479,the substance may cause damage to the liver after repeated ingestion,0,0,0
+480,,0,0,0
+481,page 10 14,0,0,0
+482,basf safety data sheet according to un ghs 4th rev,0,0,0
+483,date revised 21 11 2017,0,0,0
+484,product tinuvin 1130,0,0,0
+485,,0,0,0
+486,version 3 0,0,0,0
+487,id no 30080322 sds_gen_00 en,0,0,0
+488,date of print 22 11 2017,0,0,0
+489,,0,0,0
+490,aspiration hazard,0,0,0
+491,not applicable,0,0,0
+492,,0,0,0
+493,12 ecological information,1,0,0
+494,toxicity,0,0,0
+495,assessment of aquatic toxicity,0,0,0
+496,acutely toxic for aquatic organisms toxic to aquatic organisms based on long term chronic toxicity,0,0,0
+497,study data the inhibition of the degradation activity of activated sludge is not anticipated when,0,0,0
+498,introduced to biological treatment plants in appropriate low concentrations,0,0,0
+499,toxicity to fish,0,0,0
+500,lc50 96 h 2 8 mg l oncorhynchus mykiss oecd 203 iso 7346 84 449 eec c 1 static,0,0,0
+501,the product has low solubility in the test medium an aqueous solution prepared with solubilizers has,0,0,0
+502,been tested nominal concentration,0,0,0
+503,aquatic invertebrates,0,0,0
+504,ec50 48 h 4 mg l daphnia magna static,0,0,0
+505,the product has low solubility in the test medium an aqueous solution prepared with solubilizers has,0,0,0
+506,been tested nominal concentration,0,0,0
+507,aquatic plants,0,0,0
+508,ec50 72 h 100 mg l growth rate pseudokirchneriella subcapitata oecd guideline 201 static,0,0,0
+509,nominal concentration,0,0,0
+510,ec10 72 h 10 mg l growth rate pseudokirchneriella subcapitata oecd guideline 201 static,0,0,0
+511,nominal concentration,0,0,0
+512,microorganisms effect on activated sludge,0,0,0
+513,ec50 3 h 1 000 mg l activated sludge domestic oecd guideline 209 static,0,0,0
+514,chronic toxicity to fish,0,0,0
+515,study scientifically not justified,0,0,0
+516,chronic toxicity to aquatic invertebrates,0,0,0
+517,no observed effect concentration 21 d 0 78 mg l daphnia magna oecd guideline 202 part 2,0,0,0
+518,semistatic,0,0,0
+519,the product has low solubility in the test medium an aqueous solution prepared with solubilizers has,0,0,0
+520,been tested nominal concentration,0,0,0
+521,assessment of terrestrial toxicity,0,0,0
+522,no effects at the highest test concentration,0,0,0
+523,soil living organisms,0,0,0
+524,lc0 14 d 1 000 mg kg eisenia foetida oecd guideline 207 artificial soil,0,0,0
+525,no effects at the highest test concentration,0,0,0
+526,,0,0,0
+527,page 11 14,0,0,0
+528,basf safety data sheet according to un ghs 4th rev,0,0,0
+529,date revised 21 11 2017,0,0,0
+530,product tinuvin 1130,0,0,0
+531,,0,0,0
+532,version 3 0,0,0,0
+533,,0,0,0
+534,id no 30080322 sds_gen_00 en,0,0,0
+535,date of print 22 11 2017,0,0,0
+536,no observed effect concentration 56 d 100 mg kg eisenia foetida oecd guideline 207 artificial,0,0,0
+537,soil,0,0,0
+538,no effects at the highest test concentration,0,0,0
+539,terrestrial plants,0,0,0
+540,ec50 100 mg l brassica rapa oecd guideline 208,0,0,0
+541,no effects at the highest test concentration,0,0,0
+542,other terrestrial non mammals,0,0,0
+543,study scientifically not justified,0,0,0
+544,,0,0,0
+545,persistence and degradability,0,0,0
+546,assessment biodegradation and elimination h2o,0,0,0
+547,not readily biodegradable by oecd criteria moderately partially biodegradable,0,0,0
+548,elimination information,0,0,0
+549,24 co2 formation relative to the theoretical value 28 d oecd 301b iso 9439 92 69 eec,0,0,0
+550,c 4 c aerobic activated sludge domestic non adapted,0,0,0
+551,1 c 14 labelling 100 d oecd 308 aerobic sediment,0,0,0
+552,the product has not been tested the statement has been derived from substances products of a,0,0,0
+553,similar structure or composition,0,0,0
+554,0 2 c 14 labelling 100 d oecd 308 anaerobic sediment,0,0,0
+555,the product has not been tested the statement has been derived from substances products of a,0,0,0
+556,similar structure or composition,0,0,0
+557,assessment of stability in water,0,0,0
+558,study scientifically not justified,0,0,0
+559,information on stability in water hydrolysis,0,0,0
+560,study technically not feasible,0,0,0
+561,,0,0,0
+562,bioaccumulative potential,0,0,0
+563,assessment bioaccumulation potential,0,0,0
+564,does not significantly accumulate in organisms,0,0,0
+565,bioaccumulation potential,0,0,0
+566,bioconcentration factor 34 502 d oncorhynchus mykiss oecd guideline 305,0,0,0
+567,,0,0,0
+568,mobility in soil,0,0,0
+569,assessment transport between environmental compartments,0,0,0
+570,adsorption in soil adsorption to solid soil phase is expected,0,0,0
+571,,0,0,0
+572,other adverse effects,0,0,0
+573,the substance is not listed in regulation ec 1005 2009 on substances that deplete the ozone,0,0,0
+574,layer,0,0,0
+575,,0,0,0
+576,page 12 14,0,0,0
+577,basf safety data sheet according to un ghs 4th rev,0,0,0
+578,date revised 21 11 2017,0,0,0
+579,product tinuvin 1130,0,0,0
+580,,0,0,0
+581,version 3 0,0,0,0
+582,id no 30080322 sds_gen_00 en,0,0,0
+583,date of print 22 11 2017,0,0,0
+584,,0,0,0
+585,additional information,0,0,0
+586,add remarks environm fate pathway,0,0,0
+587,treatment in biological waste water treatment plants has to be performed according to local and,0,0,0
+588,administrative regulations,0,0,0
+589,other ecotoxicological advice,0,0,0
+590,do not discharge product into the environment without control,0,0,0
+591,,0,0,0
+592,13 disposal considerations,1,0,0
+593,waste treatment methods,0,0,0
+594,must be disposed of or incinerated in accordance with local regulations,0,0,0
+595,waste key,0,0,0
+596,07 02 08 other still bottoms and reaction residues,0,0,0
+597,contaminated packaging,0,0,0
+598,uncontaminated packaging can be re used,0,0,0
+599,packs that cannot be cleaned should be disposed of in the same manner as the contents,0,0,0
+600,,0,0,0
+601,14 transport information,1,0,0
+602,land transport,0,0,0
+603,adr,0,0,0
+604,un number,0,0,0
+605,un proper shipping name,0,0,0
+606,,0,0,0
+607,un3082,0,0,0
+608,environmentally hazardous substance liquid,0,0,0
+609,n o s contains benzotriazole derivative,0,0,0
+610,transport hazard class es 9 ehsm,0,0,0
+611,packing group,0,0,0
+612,iii,0,0,0
+613,environmental hazards,0,0,0
+614,yes,0,0,0
+615,special precautions for,0,0,0
+616,user,0,0,0
+617,none known,0,0,0
+618,,0,0,0
+619,rid,0,0,0
+620,un number,0,0,0
+621,un proper shipping name,0,0,0
+622,,0,0,0
+623,un3082,0,0,0
+624,environmentally hazardous substance liquid,0,0,0
+625,n o s contains benzotriazole derivative,0,0,0
+626,transport hazard class es 9 ehsm,0,0,0
+627,packing group,0,0,0
+628,iii,0,0,0
+629,environmental hazards,0,0,0
+630,yes,0,0,0
+631,special precautions for,0,0,0
+632,none known,0,0,0
+633,,0,0,0
+634,page 13 14,0,0,0
+635,basf safety data sheet according to un ghs 4th rev,0,0,0
+636,date revised 21 11 2017,0,0,0
+637,product tinuvin 1130,0,0,0
+638,,0,0,0
+639,version 3 0,0,0,0
+640,id no 30080322 sds_gen_00 en,0,0,0
+641,date of print 22 11 2017,0,0,0
+642,,0,0,0
+643,user,0,0,0
+644,,0,0,0
+645,inland waterway transport,0,0,0
+646,adn,0,0,0
+647,un number,0,0,0
+648,un proper shipping name,0,0,0
+649,,0,0,0
+650,un3082,0,0,0
+651,environmentally hazardous substance liquid,0,0,0
+652,n o s contains benzotriazole derivative,0,0,0
+653,transport hazard class es 9 ehsm,0,0,0
+654,packing group,0,0,0
+655,iii,0,0,0
+656,environmental hazards,0,0,0
+657,yes,0,0,0
+658,special precautions for,0,0,0
+659,none known,0,0,0
+660,user,0,0,0
+661,,0,0,0
+662,transport in inland waterway vessel,0,0,0
+663,not evaluated,0,0,0
+664,,0,0,0
+665,sea transport,0,0,0
+666,imdg,0,0,0
+667,un number,0,0,0
+668,un proper shipping name,0,0,0
+669,,0,0,0
+670,un 3082,0,0,0
+671,environmentally hazardous substance liquid,0,0,0
+672,n o s contains benzotriazole derivative,0,0,0
+673,transport hazard class es 9 ehsm,0,0,0
+674,packing group,0,0,0
+675,iii,0,0,0
+676,environmental hazards,0,0,0
+677,yes,0,0,0
+678,marine pollutant yes,0,0,0
+679,special precautions for,0,0,0
+680,none known,0,0,0
+681,user,0,0,0
+682,,0,0,0
+683,air transport,0,0,0
+684,iata icao,0,0,0
+685,un number,0,0,0
+686,un proper shipping name,0,0,0
+687,,0,0,0
+688,un 3082,0,0,0
+689,environmentally hazardous substance liquid,0,0,0
+690,n o s contains benzotriazole derivative,0,0,0
+691,transport hazard class es 9 ehsm,0,0,0
+692,packing group,0,0,0
+693,iii,0,0,0
+694,environmental hazards,0,0,0
+695,yes,0,0,0
+696,special precautions for,0,0,0
+697,none known,0,0,0
+698,user,0,0,0
+699,,0,0,0
+700,transport in bulk according to annex ii of marpol and the ibc code,0,0,0
+701,,0,0,0
+702,page 14 14,0,0,0
+703,basf safety data sheet according to un ghs 4th rev,0,0,0
+704,date revised 21 11 2017,0,0,0
+705,product tinuvin 1130,0,0,0
+706,,0,0,0
+707,version 3 0,0,0,0
+708,id no 30080322 sds_gen_00 en,0,0,0
+709,date of print 22 11 2017,0,0,0
+710,,0,0,0
+711,regulation,0,0,0
+712,shipment approved,0,0,0
+713,pollution name,0,0,0
+714,pollution category,0,0,0
+715,ship type,0,0,0
+716,,0,0,0
+717,not evaluated,0,0,0
+718,not evaluated,0,0,0
+719,not evaluated,0,0,0
+720,not evaluated,0,0,0
+721,not evaluated,0,0,0
+722,,0,0,0
+723,15 regulatory information,1,0,0
+724,safety health and environmental regulations legislation specific for the substance or,0,0,0
+725,mixture,0,0,0
+726,not applicable,0,0,0
+727,,0,0,0
+728,16 other information,1,0,0
+729,full text of classifications hazard symbols and hazard statements if mentioned in section 2 or 3,0,0,0
+730,skin sens,0,0,0
+731,skin sensitization,0,0,0
+732,aquatic acute,0,0,0
+733,hazardous to the aquatic environment acute,0,0,0
+734,aquatic chronic,0,0,0
+735,hazardous to the aquatic environment chronic,0,0,0
+736,h413,0,0,0
+737,may cause long lasting harmful effects to aquatic life,0,0,0
+738,h317,0,0,0
+739,may cause an allergic skin reaction,0,0,0
+740,h401,0,0,0
+741,toxic to aquatic life,0,0,0
+742,h411,0,0,0
+743,toxic to aquatic life with long lasting effects,0,0,0
+744,the data contained in this safety data sheet are based on our current knowledge and experience and,0,0,0
+745,describe the product only with regard to safety requirements this safety data sheet is neither a,0,0,0
+746,certificate of analysis coa nor technical data sheet and shall not be mistaken for a specification,0,0,0
+747,agreement identified uses in this safety data sheet do neither represent an agreement on the,0,0,0
+748,corresponding contractual quality of the substance mixture nor a contractually designated use it is the,0,0,0
+749,responsibility of the recipient of the product to ensure any proprietary rights and existing laws and,0,0,0
+750,legislation are observed,0,0,0
+751,vertical lines in the left hand margin indicate an amendment from the previous version,0,0,0
+752,,0,0,0
+753,,0,0,0

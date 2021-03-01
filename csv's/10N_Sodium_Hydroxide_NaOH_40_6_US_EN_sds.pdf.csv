@@ -1,0 +1,815 @@
+,sentence,title,key,value
+0,44 2 1,0,0,0
+1,,0,0,0
+2,page 1 11,0,0,0
+3,,0,0,0
+4,safety data sheet sds,0,0,0
+5,osha hazcom standard 29 cfr 1910 1200 g and ghs rev 03,0,0,0
+6,,0,0,0
+7,issue date 02 09 2017,0,0,0
+8,,0,0,0
+9,,0,0,0
+10,reviewed on 02 09 2017,0,0,0
+11,,0,0,0
+12,1 identification,1,0,0
+13,product identifier,0,0,0
+14,trade name 10n sodium hydroxide naoh 40,0,0,0
+15,product number ngt 10n naoh,0,0,0
+16,relevant identified uses of the substance or mixture and uses advised against,0,0,0
+17,no further relevant information available,0,0,0
+18,product description pc21 laboratory chemicals,0,0,0
+19,application of the substance the mixture laboratory chemicals,0,0,0
+20,details of the supplier of the safety data sheet,0,0,0
+21,manufacturer supplier,0,0,0
+22,nugeneration technologies llc dba nugentec,0,0,0
+23,1155 park avenue emeryville ca 94608,0,0,0
+24,salesteam nugentec com,0,0,0
+25,www nugentec com,0,0,0
+26,1 888 996 8436 or 1 707 820 4080 for product information,0,0,0
+27,emergency telephone number,0,0,0
+28,pers emergency response domestic and canada 1 800 633 8253 international 1 801 629 0667,0,0,0
+29,,0,0,0
+30,,0,0,0
+31,,0,0,0
+32,2 hazard s identification,1,0,0
+33,classification of the substance or mixture,0,0,0
+34,,0,0,0
+35,,0,0,0
+36,,0,0,0
+37,d,0,0,0
+38,,0,0,0
+39,ghs05 corrosion,0,0,0
+40,,0,0,0
+41,skin corr 1a h314 causes severe skin burns and eye damage,0,0,0
+42,eye dam 1 h318 causes serious eye damage,0,0,0
+43,label elements,0,0,0
+44,ghs label elements,0,0,0
+45,the product is classified and labeled according to the globally harmonized system ghs,0,0,0
+46,hazard pictograms,0,0,0
+47,,0,0,0
+48,,0,0,0
+49,,0,0,0
+50,d,0,0,0
+51,ghs05,0,0,0
+52,,0,0,0
+53,signal word danger,0,0,0
+54,hazard determining components of labeling,0,0,0
+55,sodium hydroxide,0,0,0
+56,hazard statements,0,0,0
+57,h314 causes severe skin burns and eye damage,0,0,0
+58,precautionary statements,0,0,0
+59,p260,0,0,0
+60,do not breathe dusts or mists,0,0,0
+61,p280,0,0,0
+62,wear protective gloves protective clothing eye protection face protection,0,0,0
+63,p264,0,0,0
+64,wash thoroughly after handling,0,0,0
+65,p303 p361 p353 if on skin or hair take off immediately all contaminated clothing rinse skin with,0,0,0
+66,water shower,0,0,0
+67,p305 p351 p338 if in eyes rinse cautiously with water for several minutes remove contact lenses,0,0,0
+68,if present and easy to do continue rinsing,0,0,0
+69,contd on page 2,0,0,0
+70,,0,0,0
+71,us,0,0,0
+72,,0,0,0
+73,44 2 1,0,0,0
+74,,0,0,0
+75,page 2 11,0,0,0
+76,,0,0,0
+77,safety data sheet sds,0,0,0
+78,osha hazcom standard 29 cfr 1910 1200 g and ghs rev 03,0,0,0
+79,,0,0,0
+80,issue date 02 09 2017,0,0,0
+81,,0,0,0
+82,reviewed on 02 09 2017,0,0,0
+83,,0,0,0
+84,trade name 10n sodium hydroxide naoh 40,0,0,0
+85,p310,0,0,0
+86,p321,0,0,0
+87,,0,0,0
+88,immediately call a poison center doctor,0,0,0
+89,specific treatment see supplementary first aid instructions on this safety data,0,0,0
+90,sheet,0,0,0
+91,p304 p340,0,0,0
+92,if inhaled remove person to fresh air and keep comfortable for breathing,0,0,0
+93,p363,0,0,0
+94,wash contaminated clothing before reuse,0,0,0
+95,p301 p330 p331 if swallowed rinse mouth do not induce vomiting,0,0,0
+96,p405,0,0,0
+97,store locked up,0,0,0
+98,p501,0,0,0
+99,dispose of contents container in accordance with local regional national,0,0,0
+100,international regulations,0,0,0
+101,unknown acute toxicity,0,0,0
+102,this value refers to knowledge of known established toxicological or ecotoxicological values,0,0,0
+103,0 of the mixture consists of component s of unknown toxicity,0,0,0
+104,classification system nfpa hmis definitions 0 least 1 slight 2 moderate 3 high 4 extreme,0,0,0
+105,nfpa ratings scale 0 4,0,0,0
+106,,0,0,0
+107,3,0,0,0
+108,,0,0,0
+109,0,0,0,0
+110,,0,0,0
+111,health 3,0,0,0
+112,fire 0,0,0,0
+113,reactivity 0,0,0,0
+114,,0,0,0
+115,0,0,0,0
+116,,0,0,0
+117,hmis ratings scale 0 4,0,0,0
+118,health,0,0,0
+119,,0,0,0
+120,3,0,0,0
+121,,0,0,0
+122,fire,0,0,0
+123,,0,0,0
+124,0,0,0,0
+125,,0,0,0
+126,reactivity 1,0,0,0
+127,,0,0,0
+128,health 3,0,0,0
+129,fire 0,0,0,0
+130,reactivity 1,0,0,0
+131,,0,0,0
+132,hazard s not otherwise classified hnoc none known,0,0,0
+133,,0,0,0
+134,,0,0,0
+135,3 composition information on ingredients,1,0,0
+136,non hazardous components,0,0,0
+137,7732 18 5 water distilled water deionized water,0,0,0
+138,40 60,0,0,0
+139,chemical characterization mixtures,0,0,0
+140,description mixture of substances listed below with non hazardous additions,0,0,0
+141,dangerous components,0,0,0
+142,1310 73 2 sodium hydroxide,0,0,0
+143,25 50,0,0,0
+144,skin corr 1a h314,0,0,0
+145,,0,0,0
+146,d,0,0,0
+147,additional information,0,0,0
+148,the exact percentages of the ingredients of this mixture are considered to be proprietary and are,0,0,0
+149,withheld in accordance with the provisions of paragraph i of 1910 1200 of 29 cfr 1910 1200 trade,0,0,0
+150,secrets,0,0,0
+151,,0,0,0
+152,,0,0,0
+153,,0,0,0
+154,4 first aid measures,1,0,0
+155,description of first aid measures,0,0,0
+156,general information,0,0,0
+157,immediately remove any clothing soiled by the product,0,0,0
+158,symptoms of poisoning may occur after exposure to dust fumes or particulates seek medical attention,0,0,0
+159,if feeling unwell,0,0,0
+160,after inhalation in case of unconsciousness place patient stably in side position for transportation,0,0,0
+161,,0,0,0
+162,contd on page 3,0,0,0
+163,us,0,0,0
+164,,0,0,0
+165,44 2 1,0,0,0
+166,,0,0,0
+167,page 3 11,0,0,0
+168,,0,0,0
+169,safety data sheet sds,0,0,0
+170,osha hazcom standard 29 cfr 1910 1200 g and ghs rev 03,0,0,0
+171,,0,0,0
+172,issue date 02 09 2017,0,0,0
+173,,0,0,0
+174,reviewed on 02 09 2017,0,0,0
+175,,0,0,0
+176,trade name 10n sodium hydroxide naoh 40,0,0,0
+177,after skin contact,0,0,0
+178,immediately wash with water and soap and rinse thoroughly,0,0,0
+179,if skin irritation occurs consult a doctor,0,0,0
+180,after eye contact,0,0,0
+181,rinse opened eye for several minutes under running water then consult a doctor,0,0,0
+182,if easy to do so remove contact lenses if worn,0,0,0
+183,if eye irritation occurs consult a doctor,0,0,0
+184,after swallowing drink copious amounts of water and provide fresh air immediately call a doctor,0,0,0
+185,information for doctor,0,0,0
+186,most important symptoms and effects both acute and delayed,0,0,0
+187,no further relevant information available,0,0,0
+188,indication of any immediate medical attention and special treatment needed,0,0,0
+189,no further relevant information available,0,0,0
+190,,0,0,0
+191,,0,0,0
+192,5 fire fighting measures,1,0,0
+193,extinguishing media,0,0,0
+194,suitable extinguishing agents use fire fighting measures that suit the environment,0,0,0
+195,special hazards arising from the substance or mixture no further relevant information available,0,0,0
+196,advice for firefighters,0,0,0
+197,protective equipment,0,0,0
+198,as in any fire wear self contained breathing apparatus pressure demand niosh approved or,0,0,0
+199,equivalent and full protective gear to prevent contact with skin and eyes,0,0,0
+200,,0,0,0
+201,,0,0,0
+202,,0,0,0
+203,6 accidental release measures,1,0,0
+204,personal precautions protective equipment and emergency procedures,0,0,0
+205,wear protective equipment keep unprotected persons away,0,0,0
+206,environmental precautions,0,0,0
+207,dilute with plenty of water,0,0,0
+208,do not allow to enter sewers surface or ground water,0,0,0
+209,methods and material for containment and cleaning up,0,0,0
+210,absorb with liquid binding material i e sand diatomite acid binders universal binders sawdust,0,0,0
+211,use neutralizing agent,0,0,0
+212,dispose contaminated material as waste according to section 13,0,0,0
+213,ensure adequate ventilation,0,0,0
+214,dispose of the collected material according to regulations,0,0,0
+215,reference to other sections,0,0,0
+216,see section 7 for information on safe handling,0,0,0
+217,see section 8 for information on personal protection equipment,0,0,0
+218,see section 13 for disposal information,0,0,0
+219,protective action criteria for chemicals,0,0,0
+220,pac 1,0,0,0
+221,1310 73 2 sodium hydroxide,0,0,0
+222,0 5 mg m3,0,0,0
+223,pac 2,0,0,0
+224,1310 73 2 sodium hydroxide,0,0,0
+225,,0,0,0
+226,5 mg m3,0,0,0
+227,contd on page 4,0,0,0
+228,us,0,0,0
+229,,0,0,0
+230,44 2 1,0,0,0
+231,,0,0,0
+232,page 4 11,0,0,0
+233,,0,0,0
+234,safety data sheet sds,0,0,0
+235,osha hazcom standard 29 cfr 1910 1200 g and ghs rev 03,0,0,0
+236,,0,0,0
+237,issue date 02 09 2017,0,0,0
+238,,0,0,0
+239,reviewed on 02 09 2017,0,0,0
+240,,0,0,0
+241,trade name 10n sodium hydroxide naoh 40,0,0,0
+242,pac 3,0,0,0
+243,1310 73 2 sodium hydroxide,0,0,0
+244,,0,0,0
+245,50 mg m3,0,0,0
+246,,0,0,0
+247,7 handling and storage,1,0,0
+248,handling,0,0,0
+249,precautions for safe handling,0,0,0
+250,ensure good ventilation exhaustion at the workplace,0,0,0
+251,prevent formation of aerosols,0,0,0
+252,information about protection against explosions and fires no special measures required,0,0,0
+253,conditions for safe storage including any incompatibilities,0,0,0
+254,storage,0,0,0
+255,requirements to be met by storerooms and receptacles no special requirements,0,0,0
+256,information about storage in one common storage facility not required,0,0,0
+257,further information about storage conditions keep receptacle tightly sealed,0,0,0
+258,specific end use s no further relevant information available,0,0,0
+259,,0,0,0
+260,,0,0,0
+261,8 exposure controls personal protection,1,0,0
+262,additional information about design of technical systems no further data see section 7,0,0,0
+263,control parameters,0,0,0
+264,components with occupational exposure limits,0,0,0
+265,1310 73 2 sodium hydroxide,0,0,0
+266,pel long term value 2 mg m³,0,0,0
+267,rel ceiling limit value 2 mg m³,0,0,0
+268,tlv ceiling limit value 2 mg m³,0,0,0
+269,additional information the lists that were valid during the creation of this sds were used as basis,0,0,0
+270,exposure controls,0,0,0
+271,personal protective equipment,0,0,0
+272,general protective and hygienic measures,0,0,0
+273,the usual precautionary measures for handling chemicals should be followed,0,0,0
+274,keep away from foodstuffs beverages and feed,0,0,0
+275,immediately remove all soiled and contaminated clothing and wash before reuse,0,0,0
+276,wash hands before breaks and at the end of work,0,0,0
+277,avoid contact with the eyes and skin,0,0,0
+278,breathing equipment not required,0,0,0
+279,protection of hands,0,0,0
+280,,0,0,0
+281,s,0,0,0
+282,_,0,0,0
+283,,0,0,0
+284,protective gloves,0,0,0
+285,,0,0,0
+286,the glove material has to be impermeable and resistant to the product the substance the preparation,0,0,0
+287,,0,0,0
+288,contd on page 5,0,0,0
+289,us,0,0,0
+290,,0,0,0
+291,44 2 1,0,0,0
+292,,0,0,0
+293,page 5 11,0,0,0
+294,,0,0,0
+295,safety data sheet sds,0,0,0
+296,osha hazcom standard 29 cfr 1910 1200 g and ghs rev 03,0,0,0
+297,,0,0,0
+298,issue date 02 09 2017,0,0,0
+299,,0,0,0
+300,reviewed on 02 09 2017,0,0,0
+301,,0,0,0
+302,trade name 10n sodium hydroxide naoh 40,0,0,0
+303,due to missing tests no recommendation to the glove material can be given for the product the,0,0,0
+304,preparation the chemical mixture,0,0,0
+305,select glove material based on penetration times rates of diffusion and degradation,0,0,0
+306,material of gloves,0,0,0
+307,the selection of the suitable gloves does not only depend on the material but also on further marks of,0,0,0
+308,quality and varies from manufacturer to manufacturer as the product is a preparation of several,0,0,0
+309,substances the resistance of the glove material cannot be calculated in advance and has therefore to,0,0,0
+310,be checked prior to the application,0,0,0
+311,penetration time of glove material,0,0,0
+312,the exact break through time has to be determined and observed by the manufacturer of the protective,0,0,0
+313,gloves,0,0,0
+314,eye protection,0,0,0
+315,,0,0,0
+316,r,0,0,0
+317,_,0,0,0
+318,,0,0,0
+319,,0,0,0
+320,tightly sealed goggles,0,0,0
+321,,0,0,0
+322,9 physical and chemical properties,1,0,0
+323,information on basic physical and chemical properties,0,0,0
+324,general information,0,0,0
+325,appearance,0,0,0
+326,liquid,0,0,0
+327,form,0,0,0
+328,colorless,0,0,0
+329,color,0,0,0
+330,odor,0,0,0
+331,odorless,0,0,0
+332,odor threshold,0,0,0
+333,not determined,0,0,0
+334,ph value 20 c 68 f,0,0,0
+335,,0,0,0
+336,13 7,0,0,0
+337,,0,0,0
+338,change in condition,0,0,0
+339,melting point melting range,0,0,0
+340,boiling point boiling range,0,0,0
+341,,0,0,0
+342,not determined,0,0,0
+343,100 c 212 f,0,0,0
+344,,0,0,0
+345,flash point,0,0,0
+346,,0,0,0
+347,none,0,0,0
+348,,0,0,0
+349,flammability solid gaseous,0,0,0
+350,,0,0,0
+351,not applicable,0,0,0
+352,,0,0,0
+353,ignition temperature,0,0,0
+354,,0,0,0
+355,not determined,0,0,0
+356,,0,0,0
+357,decomposition temperature,0,0,0
+358,,0,0,0
+359,not determined,0,0,0
+360,,0,0,0
+361,auto igniting,0,0,0
+362,,0,0,0
+363,product is not self igniting,0,0,0
+364,,0,0,0
+365,danger of explosion,0,0,0
+366,,0,0,0
+367,product does not present an explosion hazard,0,0,0
+368,,0,0,0
+369,explosion limits,0,0,0
+370,lower,0,0,0
+371,upper,0,0,0
+372,,0,0,0
+373,0 0 vol,0,0,0
+374,0 0 vol,0,0,0
+375,,0,0,0
+376,vapor pressure 20 c 68 f,0,0,0
+377,,0,0,0
+378,23 hpa 17 mm hg,0,0,0
+379,,0,0,0
+380,density 20 c 68 f,0,0,0
+381,relative density,0,0,0
+382,,0,0,0
+383,1 452 g cm³ 12 117 lbs gal,0,0,0
+384,not determined,0,0,0
+385,,0,0,0
+386,contd on page 6,0,0,0
+387,us,0,0,0
+388,,0,0,0
+389,44 2 1,0,0,0
+390,,0,0,0
+391,page 6 11,0,0,0
+392,,0,0,0
+393,safety data sheet sds,0,0,0
+394,osha hazcom standard 29 cfr 1910 1200 g and ghs rev 03,0,0,0
+395,,0,0,0
+396,issue date 02 09 2017,0,0,0
+397,,0,0,0
+398,reviewed on 02 09 2017,0,0,0
+399,,0,0,0
+400,trade name 10n sodium hydroxide naoh 40,0,0,0
+401,vapor density,0,0,0
+402,evaporation rate,0,0,0
+403,,0,0,0
+404,not determined,0,0,0
+405,not determined,0,0,0
+406,,0,0,0
+407,solubility in miscibility with,0,0,0
+408,water,0,0,0
+409,,0,0,0
+410,fully miscible,0,0,0
+411,,0,0,0
+412,partition coefficient n octanol water not determined,0,0,0
+413,viscosity,0,0,0
+414,dynamic 20 c 68 f,0,0,0
+415,kinematic,0,0,0
+416,,0,0,0
+417,1 mpas,0,0,0
+418,not determined,0,0,0
+419,,0,0,0
+420,solvent content,0,0,0
+421,organic solvents,0,0,0
+422,water,0,0,0
+423,voc content,0,0,0
+424,,0,0,0
+425,0 0,0,0,0
+426,60 0,0,0,0
+427,0 0 g l 0 00 lb gl,0,0,0
+428,,0,0,0
+429,solids content,0,0,0
+430,other information,0,0,0
+431,,0,0,0
+432,40 0,0,0,0
+433,no further relevant information available,0,0,0
+434,,0,0,0
+435,10 stability and reactivity,1,0,0
+436,reactivity no further relevant information available,0,0,0
+437,chemical stability stable under normal conditions,0,0,0
+438,thermal decomposition conditions to be avoided,0,0,0
+439,no decomposition if used according to specifications,0,0,0
+440,possibility of hazardous reactions no dangerous reactions known,0,0,0
+441,conditions to avoid no further relevant information available,0,0,0
+442,incompatible materials no further relevant information available,0,0,0
+443,hazardous decomposition products no dangerous decomposition products known,0,0,0
+444,,0,0,0
+445,,0,0,0
+446,11 toxicological information,1,0,0
+447,information on toxicological effects,0,0,0
+448,acute toxicity,0,0,0
+449,ld lc50 values that are relevant for classification,0,0,0
+450,1310 73 2 sodium hydroxide,0,0,0
+451,oral ld50 2000 mg kg rat,0,0,0
+452,primary irritant effect,0,0,0
+453,on the skin strong caustic effect on skin and mucous membranes,0,0,0
+454,on the eye,0,0,0
+455,strong caustic effect,0,0,0
+456,strong irritant with the danger of severe eye injury,0,0,0
+457,corrosive effect,0,0,0
+458,causes serious eye irritation,0,0,0
+459,additional toxicological information,0,0,0
+460,swallowing will lead to a strong caustic effect on mouth and throat and to the danger of perforation of,0,0,0
+461,esophagus and stomach,0,0,0
+462,,0,0,0
+463,contd on page 7,0,0,0
+464,us,0,0,0
+465,,0,0,0
+466,44 2 1,0,0,0
+467,,0,0,0
+468,page 7 11,0,0,0
+469,,0,0,0
+470,safety data sheet sds,0,0,0
+471,osha hazcom standard 29 cfr 1910 1200 g and ghs rev 03,0,0,0
+472,,0,0,0
+473,issue date 02 09 2017,0,0,0
+474,,0,0,0
+475,reviewed on 02 09 2017,0,0,0
+476,,0,0,0
+477,trade name 10n sodium hydroxide naoh 40,0,0,0
+478,the product shows the following dangers according to internally approved calculation methods for,0,0,0
+479,preparations,0,0,0
+480,corrosive,0,0,0
+481,irritant,0,0,0
+482,swallowing will lead to a corrosive effect on mouth and throat and to the danger of perforation of,0,0,0
+483,esophagus and stomach,0,0,0
+484,carcinogenic categories,0,0,0
+485,iarc international agency for research on cancer,0,0,0
+486,none of the ingredients are listed,0,0,0
+487,ntp national toxicology program,0,0,0
+488,none of the ingredients are listed,0,0,0
+489,osha ca occupational safety health administration,0,0,0
+490,none of the ingredients are listed,0,0,0
+491,,0,0,0
+492,,0,0,0
+493,12 ecological information,1,0,0
+494,toxicity,0,0,0
+495,aquatic toxicity,0,0,0
+496,1310 73 2 sodium hydroxide,0,0,0
+497,ec50 40 mg l daphnia,0,0,0
+498,persistence and degradability no further relevant information available,0,0,0
+499,behavior in environmental systems,0,0,0
+500,bioaccumulative potential no further relevant information available,0,0,0
+501,mobility in soil no further relevant information available,0,0,0
+502,additional ecological information,0,0,0
+503,general notes,0,0,0
+504,do not allow undiluted product or product that has not been neutralized to reach ground water water,0,0,0
+505,course or sewage system,0,0,0
+506,must not reach bodies of water or drainage ditch undiluted or unneutralized,0,0,0
+507,rinse off of bigger amounts into drains or the aquatic environment may lead to increased ph values a,0,0,0
+508,high ph value harms aquatic organisms in the dilution of the use level the ph value is considerably,0,0,0
+509,reduced so that after the use of the product the aqueous waste emptied into drains is only low waterdangerous,0,0,0
+510,results of pbt and vpvb assessment,0,0,0
+511,pbt not applicable,0,0,0
+512,vpvb not applicable,0,0,0
+513,other adverse effects no further relevant information available,0,0,0
+514,,0,0,0
+515,13 disposal considerations,1,0,0
+516,waste treatment methods,0,0,0
+517,recommendation,0,0,0
+518,must not be disposed of together with household garbage do not allow product to reach sewage,0,0,0
+519,system,0,0,0
+520,,0,0,0
+521,contd on page 8,0,0,0
+522,us,0,0,0
+523,,0,0,0
+524,44 2 1,0,0,0
+525,,0,0,0
+526,page 8 11,0,0,0
+527,,0,0,0
+528,safety data sheet sds,0,0,0
+529,osha hazcom standard 29 cfr 1910 1200 g and ghs rev 03,0,0,0
+530,,0,0,0
+531,issue date 02 09 2017,0,0,0
+532,,0,0,0
+533,reviewed on 02 09 2017,0,0,0
+534,,0,0,0
+535,trade name 10n sodium hydroxide naoh 40,0,0,0
+536,observe all federal state and local environmental regulations when disposing of this material,0,0,0
+537,uncleaned packagings,0,0,0
+538,recommendation disposal must be made according to official regulations,0,0,0
+539,recommended cleansing agent water if necessary with cleansing agents,0,0,0
+540,,0,0,0
+541,,0,0,0
+542,14 transport information,1,0,0
+543,un number,0,0,0
+544,dot adr adn imdg iata,0,0,0
+545,un proper shipping name,0,0,0
+546,dot,0,0,0
+547,adr adn,0,0,0
+548,imdg iata,0,0,0
+549,transport hazard class es,0,0,0
+550,,0,0,0
+551,un3266,0,0,0
+552,corrosive liquid basic inorganic n o s sodium,0,0,0
+553,hydroxide,0,0,0
+554,un3266 corrosive liquid basic inorganic n o s sodium,0,0,0
+555,hydroxide,0,0,0
+556,corrosive liquid basic inorganic n o s,0,0,0
+557,sodium hydroxide,0,0,0
+558,,0,0,0
+559,dot,0,0,0
+560,,0,0,0
+561,,0,0,0
+562,a,0,0,0
+563,o,0,0,0
+564,c,0,0,0
+565,d,0,0,0
+566,class,0,0,0
+567,label,0,0,0
+568,,0,0,0
+569,8 corrosive substances,0,0,0
+570,8,0,0,0
+571,,0,0,0
+572,adr adn,0,0,0
+573,,0,0,0
+574,,0,0,0
+575,a,0,0,0
+576,o,0,0,0
+577,c,0,0,0
+578,d,0,0,0
+579,class,0,0,0
+580,label,0,0,0
+581,,0,0,0
+582,8 c5 corrosive substances,0,0,0
+583,8,0,0,0
+584,,0,0,0
+585,imdg iata,0,0,0
+586,,0,0,0
+587,,0,0,0
+588,a,0,0,0
+589,o,0,0,0
+590,c,0,0,0
+591,d,0,0,0
+592,class,0,0,0
+593,label,0,0,0
+594,packing group,0,0,0
+595,dot adr adn imdg iata,0,0,0
+596,environmental hazards,0,0,0
+597,special precautions for user,0,0,0
+598,danger code kemler,0,0,0
+599,ems number,0,0,0
+600,segregation groups,0,0,0
+601,,0,0,0
+602,8 corrosive substances,0,0,0
+603,8,0,0,0
+604,ii,0,0,0
+605,not applicable,0,0,0
+606,warning corrosive substances,0,0,0
+607,88,0,0,0
+608,f a s b,0,0,0
+609,alkalis,0,0,0
+610,,0,0,0
+611,contd on page 9,0,0,0
+612,us,0,0,0
+613,,0,0,0
+614,44 2 1,0,0,0
+615,,0,0,0
+616,page 9 11,0,0,0
+617,,0,0,0
+618,safety data sheet sds,0,0,0
+619,osha hazcom standard 29 cfr 1910 1200 g and ghs rev 03,0,0,0
+620,,0,0,0
+621,issue date 02 09 2017,0,0,0
+622,,0,0,0
+623,reviewed on 02 09 2017,0,0,0
+624,,0,0,0
+625,trade name 10n sodium hydroxide naoh 40,0,0,0
+626,stowage category,0,0,0
+627,b,0,0,0
+628,stowage code,0,0,0
+629,sw2 clear of living quarters,0,0,0
+630,segregation code,0,0,0
+631,sg35 stow separated from acids,0,0,0
+632,transport in bulk according to annex ii of,0,0,0
+633,not applicable,0,0,0
+634,marpol73 78 and the ibc code,0,0,0
+635,transport additional information,0,0,0
+636,dot,0,0,0
+637,quantity limitations,0,0,0
+638,adr adn,0,0,0
+639,excepted quantities eq,0,0,0
+640,,0,0,0
+641,imdg,0,0,0
+642,limited quantities lq,0,0,0
+643,excepted quantities eq,0,0,0
+644,un model regulation,0,0,0
+645,,0,0,0
+646,,0,0,0
+647,,0,0,0
+648,on passenger aircraft rail 0 5 l,0,0,0
+649,on cargo aircraft only 2 5 l,0,0,0
+650,code e2,0,0,0
+651,maximum net quantity per inner packaging 30 ml,0,0,0
+652,maximum net quantity per outer packaging 500 ml,0,0,0
+653,0,0,0,0
+654,code e0,0,0,0
+655,not permitted as excepted quantity,0,0,0
+656,un 3266 corrosive liquid basic inorganic,0,0,0
+657,n o s sodium hydroxide 8 ii,0,0,0
+658,,0,0,0
+659,15 regulatory information,1,0,0
+660,safety health and environmental regulations legislation specific for the substance or mixture,0,0,0
+661,sara superfund amendments and reauthorization,0,0,0
+662,section 355 extremely hazardous substances,0,0,0
+663,none of the ingredients are listed,0,0,0
+664,section 313 specific toxic chemical listings,0,0,0
+665,none of the ingredients are listed,0,0,0
+666,tsca toxic substances control act,0,0,0
+667,all ingredients are listed or exempt from listing,0,0,0
+668,california proposition 65,0,0,0
+669,chemicals known to cause cancer,0,0,0
+670,none of the ingredients are listed,0,0,0
+671,chemicals known to cause reproductive toxicity for females,0,0,0
+672,none of the ingredients are listed,0,0,0
+673,chemicals known to cause reproductive toxicity for males,0,0,0
+674,none of the ingredients are listed,0,0,0
+675,chemicals known to cause developmental toxicity,0,0,0
+676,none of the ingredients are listed,0,0,0
+677,new jersey right to know list,0,0,0
+678,1310 73 2 sodium hydroxide,0,0,0
+679,contd on page 10,0,0,0
+680,us,0,0,0
+681,,0,0,0
+682,44 2 1,0,0,0
+683,,0,0,0
+684,page 10 11,0,0,0
+685,,0,0,0
+686,safety data sheet sds,0,0,0
+687,osha hazcom standard 29 cfr 1910 1200 g and ghs rev 03,0,0,0
+688,,0,0,0
+689,issue date 02 09 2017,0,0,0
+690,,0,0,0
+691,reviewed on 02 09 2017,0,0,0
+692,,0,0,0
+693,trade name 10n sodium hydroxide naoh 40,0,0,0
+694,new jersey special hazardous substance list,0,0,0
+695,1310 73 2 sodium hydroxide,0,0,0
+696,,0,0,0
+697,co r1,0,0,0
+698,,0,0,0
+699,pennsylvania right to know list,0,0,0
+700,1310 73 2 sodium hydroxide,0,0,0
+701,pennsylvania special hazardous substance list,0,0,0
+702,1310 73 2 sodium hydroxide,0,0,0
+703,,0,0,0
+704,e,0,0,0
+705,,0,0,0
+706,carcinogenic categories,0,0,0
+707,epa environmental protection agency,0,0,0
+708,none of the ingredients are listed,0,0,0
+709,tlv threshold limit value established by acgih,0,0,0
+710,none of the ingredients are listed,0,0,0
+711,niosh ca national institute for occupational safety and health,0,0,0
+712,none of the ingredients are listed,0,0,0
+713,ghs label elements,0,0,0
+714,the product is classified and labeled according to the globally harmonized system ghs,0,0,0
+715,hazard pictograms,0,0,0
+716,,0,0,0
+717,,0,0,0
+718,,0,0,0
+719,d,0,0,0
+720,ghs05,0,0,0
+721,,0,0,0
+722,signal word danger,0,0,0
+723,hazard determining components of labeling,0,0,0
+724,sodium hydroxide,0,0,0
+725,hazard statements,0,0,0
+726,h314 causes severe skin burns and eye damage,0,0,0
+727,precautionary statements,0,0,0
+728,p260,0,0,0
+729,do not breathe dusts or mists,0,0,0
+730,p280,0,0,0
+731,wear protective gloves protective clothing eye protection face protection,0,0,0
+732,p264,0,0,0
+733,wash thoroughly after handling,0,0,0
+734,p303 p361 p353 if on skin or hair take off immediately all contaminated clothing rinse skin with,0,0,0
+735,water shower,0,0,0
+736,p305 p351 p338 if in eyes rinse cautiously with water for several minutes remove contact lenses,0,0,0
+737,if present and easy to do continue rinsing,0,0,0
+738,p310,0,0,0
+739,immediately call a poison center doctor,0,0,0
+740,p321,0,0,0
+741,specific treatment see supplementary first aid instructions on this safety data,0,0,0
+742,sheet,0,0,0
+743,p304 p340,0,0,0
+744,if inhaled remove person to fresh air and keep comfortable for breathing,0,0,0
+745,p363,0,0,0
+746,wash contaminated clothing before reuse,0,0,0
+747,p301 p330 p331 if swallowed rinse mouth do not induce vomiting,0,0,0
+748,p405,0,0,0
+749,store locked up,0,0,0
+750,p501,0,0,0
+751,dispose of contents container in accordance with local regional national,0,0,0
+752,international regulations,0,0,0
+753,contd on page 11,0,0,0
+754,,0,0,0
+755,us,0,0,0
+756,,0,0,0
+757,44 2 1,0,0,0
+758,,0,0,0
+759,page 11 11,0,0,0
+760,,0,0,0
+761,safety data sheet sds,0,0,0
+762,osha hazcom standard 29 cfr 1910 1200 g and ghs rev 03,0,0,0
+763,,0,0,0
+764,issue date 02 09 2017,0,0,0
+765,,0,0,0
+766,reviewed on 02 09 2017,0,0,0
+767,,0,0,0
+768,trade name 10n sodium hydroxide naoh 40,0,0,0
+769,national regulations,0,0,0
+770,the product is subject to be classified according with the latest version of the regulations on,0,0,0
+771,hazardous substances,0,0,0
+772,chemical safety assessment a chemical safety assessment has not been carried out,0,0,0
+773,,0,0,0
+774,16 other information,1,0,0
+775,the information and recommendations in this safety data sheet are to the best of our knowledge,0,0,0
+776,accurate as of the date of issue nothing herein shall be deemed to create warranty expressed or,0,0,0
+777,implied and shall not establish a legally valid contractual relationship it is the responsibility of the user,0,0,0
+778,to determine applicability of this information and the suitability of the material or product for any,0,0,0
+779,particular purpose,0,0,0
+780,date of preparation last revision 02 09 2017 5,0,0,0
+781,abbreviations and acronyms,0,0,0
+782,,0,0,0
+783,adr the european agreement concerning the international carriage of dangerous goods by road,0,0,0
+784,adn the european agreement concerning the international carriage of dangerous goods by inland waterways,0,0,0
+785,imdg international maritime code for dangerous goods,0,0,0
+786,dot us department of transportation,0,0,0
+787,iata international air transport association,0,0,0
+788,acgih american conference of governmental industrial hygienists,0,0,0
+789,einecs european inventory of existing commercial chemical substances,0,0,0
+790,elincs european list of notified chemical substances,0,0,0
+791,cas chemical abstracts service division of the american chemical society,0,0,0
+792,nfpa national fire protection association usa,0,0,0
+793,hmis hazardous materials identification system usa,0,0,0
+794,voc volatile organic compounds usa eu,0,0,0
+795,lc50 lethal concentration 50 percent,0,0,0
+796,ld50 lethal dose 50 percent,0,0,0
+797,pbt persistent bioaccumulative and toxic,0,0,0
+798,vpvb very persistent and very bioaccumulative,0,0,0
+799,niosh national institute for occupational safety and health,0,0,0
+800,osha occupational safety health administration,0,0,0
+801,tlv threshold limit value,0,0,0
+802,pel permissible exposure limit,0,0,0
+803,rel recommended exposure limit,0,0,0
+804,skin corr 1a skin corrosion irritation category 1a,0,0,0
+805,eye dam 1 serious eye damage eye irritation category 1,0,0,0
+806,,0,0,0
+807,data compared to the previous version altered,0,0,0
+808,sds created by msds authoring services www msdsauthoring com,0,0,0
+809,,0,0,0
+810,1 877 204 9106,0,0,0
+811,us,0,0,0
+812,,0,0,0
+813,,0,0,0

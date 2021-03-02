@@ -3,27 +3,11 @@ import pandas as pd
 import numpy as np
 import re
 import os
-import gensim
-import math
-import pprint
-import spacy
-import nltk
 
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
-
 from polyfuzz import PolyFuzz
-
-
-from keras.preprocessing.text import Tokenizer
-from keras.preprocessing.sequence import pad_sequences
-from sklearn.feature_extraction.text import TfidfVectorizer
-from gensim.models.word2vec import Word2Vec
-from gensim.models import KeyedVectors
-import gensim.downloader as api
-from gensim import similarities
-
 
 directory = '../data/23114.pdf'
 

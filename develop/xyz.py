@@ -98,7 +98,7 @@ def dict_titles_with_values(data):
     return lst
 
 sds_official = {
-    'identification of the substance/mixture and of the company/undertaking': ['product identifier','relevant identified uses of the substance or mixture and uses advised against','details of the supplier of the safety data sheet','emergency telephone number'],
+    'identification of the substance/mixture and of the company/undertaking': ['company','product identifier','relevant identified uses of the substance or mixture and uses advised against','details of the supplier of the safety data sheet','emergency telephone number'],
     'hazards identification': ['classification of the substance or mixture', 'label elements','other hazards'],
     'composition/information on ingredients':['substances','mixtures'],
     'first aid measures':['description of first aid measures','most important symptoms and effects, both acute and delayed','indication of any immediate medical attention and special treatment needed'],
@@ -144,7 +144,7 @@ def tokenize_words_sds(dict):
     n_columns = len(dict.columns)
 
     stop_words = stopwords.words('english')
-    sw_list = ["the", "and", "or", "of", "?", ",", "information"]
+    sw_list = ["the", "and", "or", "of", "?", ",", " "]
     stop_words.extend(sw_list)
 
     for i in dict:
@@ -178,14 +178,18 @@ def tokenize_words_sds(dict):
 data = tokenize_words_sds(dict_titles_with_values(df_from_text(directory)))
 sds_tokenized = tokenize_words_sds(sds_official)
 
+# print(data)
 
+def unique(list1):
+    # intilize a null list
+    unique_list = []
+    # traverse for all elements
+    for x in list1:
+        # check if exists in unique_list or not
+        if x not in unique_list:
+            unique_list.append(x)
+    return unique_list
 
-#
-# def make_df_with_keys(df_sds, df_pdf):
-#     '''
-#     Get 2 dataframes as input
-#
-#     '''
 
 columns_data = [column for column in data.columns]
 columns_sds = [column for column in sds_tokenized.columns]
@@ -195,34 +199,41 @@ tokenized_columns_sds = [word_tokenize(i) for i in columns_sds]
 lst = []
 for w1 in tokenized_columns_sds:
     for w2 in tokenized_columns_data:
-        if nltk.edit_distance(w1, w2) <= 1:
+        if nltk.edit_distance(w1, w2) <= 1 and w1 not in lst:
             lst.append(w1)
+lst = [" ".join(word) for word in lst]
+
 print(len(lst))
 
 '''Dit iterate over 2 dataframes en als Levenshtein disctance '''
-keys = []
-# for range in np.arange(0, len(sds_tokenized)):
-for zin_a in data.iloc[:,0]:
-    for zin_b in sds_tokenized.iloc[:,0]:
-        for word_a in zin_a:
-            for word_b in zin_b:
-                if nltk.edit_distance(word_a,word_b) <= 1:
-                    keys.append(zin_a)
+
+# len_data = len(data.columns)
+# df_data = pd.concat([data, sds_tokenized], axis=1)
+# df_data_selection = df_data.iloc[:,0:len_data]
+# df_sds_tokenized_selection = df_data.iloc[:,len_data: len_data+len_data+1]
+# print(df_data_selection)
+# print(df_sds_tokenized_selection)
+
+keyList = np.arange(0, len(sds_tokenized))
+dicts =  dict.fromkeys(keyList, None)
+
+for range in keyList:
+    list_of_lists = []
+    for zin_a in sds_tokenized.iloc[:,range]:
+        # print(zin_a)
+        # print('-----')
+        for zin_b in data.iloc[:,range]:
+            # print(zin_b)
+            for word_a in zin_a:
+                for word_b in zin_b:
+                    if nltk.edit_distance(word_a, word_b) <= 1 and zin_b not in list_of_lists:
+                        list_of_lists.append(zin_b)
+
+    lst = [" ".join(word) for word in list_of_lists]
+    dicts[range] = lst
 
 
-def unique(list1):
-    # intilize a null list
-    unique_list = []
-
-    # traverse for all elements
-    for x in list1:
-        # check if exists in unique_list or not
-        if x not in unique_list:
-            unique_list.append(x)
-    return unique_list
-
-keys = unique(keys)
-# print(keys)
+print(dicts)
 
 
 

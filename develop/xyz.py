@@ -1,13 +1,16 @@
+#!usr/bin/python3
+
 import textract as tx
 import pandas as pd
 import numpy as np
+import itertools
 import re
 import os
+import nltk
 
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
-from polyfuzz import PolyFuzz
 
 directory = '../data/23114.pdf'
 
@@ -94,10 +97,6 @@ def dict_titles_with_values(data):
                 lst[current_title].append(j)
     return lst
 
-# data_dict = dict_titles_with_values(data)
-# vectorizer = CountVectorizer(max_features=1500, min_df=5, max_df=0.7, stop_words=stopwords.words('english'))
-# print(data_dict)
-
 sds_official = {
     'identification of the substance/mixture and of the company/undertaking': ['product identifier','relevant identified uses of the substance or mixture and uses advised against','details of the supplier of the safety data sheet','emergency telephone number'],
     'hazards identification': ['classification of the substance or mixture', 'label elements','other hazards'],
@@ -117,11 +116,20 @@ sds_official = {
     'other information':['date of the latest revision of the sds']
 }
 
+sds_ch1 = {
+    "1":["trade name", "product number"],
+    "2":[""]
+}
+
 '''
 Label all titles as keys and label values as values
 then try to label the corpus in the columns as keys or values
 - to label we need to vectorize the keys and values in sds_official and compare to columns.
 '''
+
+def lemmatize_text(text):
+    lemmatizer = WordNetLemmatizer()
+    return [lemmatizer.lemmatize(w) for w in word_tokenize(text)]
 
 def tokenize_words_sds(dict):
     '''
@@ -136,12 +144,8 @@ def tokenize_words_sds(dict):
     n_columns = len(dict.columns)
 
     stop_words = stopwords.words('english')
-    sw_list = ["the", "and", "or", "of", "?", ","]
+    sw_list = ["the", "and", "or", "of", "?", ",", "information"]
     stop_words.extend(sw_list)
-
-    def lemmatize_text(text):
-        lemmatizer = WordNetLemmatizer()
-        return [lemmatizer.lemmatize(w) for w in word_tokenize(text)]
 
     for i in dict:
         dict[f'{i}_No_SW'] = dict[f'{i}'].apply(lambda x: ' '.join([word for word in x.split() if word not in (stop_words)]))
@@ -171,93 +175,91 @@ def tokenize_words_sds(dict):
     dict.columns = column_names
     return dict
 
-
 data = tokenize_words_sds(dict_titles_with_values(df_from_text(directory)))
 sds_tokenized = tokenize_words_sds(sds_official)
 
-pdf_columns = list(data.columns)
-sds_sheet_columns = list(sds_tokenized.columns)
-
-model = PolyFuzz("TF-IDF")
-model.match(pdf_columns, sds_sheet_columns)
-
-print(model.get_matches())
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# tokenizer = Tokenizer()
-# tokenizer.fit_on_texts(sds_tokenized)
-# tokenizer_documents = tokenizer.texts_to_sequences(sds_tokenized)
-# tokenized_paded_documents = pad_sequences(tokenizer_documents, maxlen=64, padding='post')
-# vocab_size = len(tokenizer.word_index)+1
-# # print(tokenizer_paded_documents)
 #
-# W2V_PATH="../GoogleNews-vectors-negative300.bin.gz"
-# model_w2v = gensim.models.KeyedVectors.load_word2vec_format(W2V_PATH, binary=True)
+# def make_df_with_keys(df_sds, df_pdf):
+#     '''
+#     Get 2 dataframes as input
 #
-# # creating embedding matrix, every row is a vector representation from the vocabulary indexed by the tokenizer index.
-# embedding_matrix=np.zeros((vocab_size,300))
-# for word,i in tokenizer.word_index.items():
-#     if word in model_w2v:
-#         embedding_matrix[i]=model_w2v[word]
-# # creating document-word embeddings
-# document_word_embeddings=np.zeros((len(tokenized_paded_documents),64,300))
-# for i in range(len(tokenized_paded_documents)):
-#     for j in range(len(tokenized_paded_documents[0])):
-#         document_word_embeddings[i][j]=embedding_matrix[tokenized_paded_documents[i][j]]
-# # print(document_word_embeddings.shape)
-#
-# document_embeddings=np.zeros((len(tokenized_paded_documents),300))
-# tfidvectorizer = TfidfVectorizer()
-# words=tfidvectorizer.get_feature_names()
-# for i in range(len(document_word_embeddings)):
-#     for j in range(len(words)):
-#         document_embeddings[i]+=embedding_matrix[tokenizer.word_index[words[j]]]*tfidf_vectors[i][j]
-#
-# print(document_embeddings.shape)
-# pairwise_similarities=cosine_similarity(document_embeddings)
-# pairwise_differences=euclidean_distances(document_embeddings)
-#
-# print(most_similar(0,pairwise_similarities,'Cosine Similarity'))
-# print(most_similar(0,pairwise_differences,'Euclidean Distance'))
+#     '''
+
+columns_data = [column for column in data.columns]
+columns_sds = [column for column in sds_tokenized.columns]
+tokenized_columns_data = [word_tokenize(i) for i in columns_data]
+tokenized_columns_sds = [word_tokenize(i) for i in columns_sds]
+
+lst = []
+for w1 in tokenized_columns_sds:
+    for w2 in tokenized_columns_data:
+        if nltk.edit_distance(w1, w2) <= 1:
+            lst.append(w1)
+print(len(lst))
+
+'''Dit iterate over 2 dataframes en als Levenshtein disctance '''
+keys = []
+# for range in np.arange(0, len(sds_tokenized)):
+for zin_a in data.iloc[:,0]:
+    for zin_b in sds_tokenized.iloc[:,0]:
+        for word_a in zin_a:
+            for word_b in zin_b:
+                if nltk.edit_distance(word_a,word_b) <= 1:
+                    keys.append(zin_a)
+
+
+def unique(list1):
+    # intilize a null list
+    unique_list = []
+
+    # traverse for all elements
+    for x in list1:
+        # check if exists in unique_list or not
+        if x not in unique_list:
+            unique_list.append(x)
+    return unique_list
+
+keys = unique(keys)
+# print(keys)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

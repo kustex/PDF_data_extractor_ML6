@@ -12,9 +12,17 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 
-directory = '../data/23114.pdf'
+directory = '../data/Omnirad-184.pdf'
 
 def check_if_title(sentence):
+    '''
+
+    Args:
+        sentence: String
+
+    Returns: A value 1 if a string is a title. Value 0 if not.
+
+    '''
     sentence = str(sentence)
     word_list = ['identification', 'composition', 'ingredients', 'information', 'measures', 'handling', 'consideration',
                  'properties', 'stability', 'considerations', 'exposure', 'section']
@@ -35,6 +43,14 @@ def check_if_title(sentence):
         return 0
 
 def clean_text(text):
+    '''
+
+    Args:
+        text: String
+
+    Returns: Cleaned text
+
+    '''
     # remove unwanted chars
     text = re.sub(r'[^\w]', ' ', text)
     # remove starting and trailing spaces
@@ -56,6 +72,14 @@ def clean_text(text):
     return text
 
 def df_from_text(path):
+    '''
+
+    Args:
+        path: The path to a PDF-file.
+
+    Returns: Makes dataframe out of plain text (PDF) and applies clean_text() and check_if_title() function to create a dataframe.
+
+    '''
     text = tx.process(path)
     text = text.decode('utf-8')
     text_splitted = re.split("\r\n|\r\n\r\n", text)
@@ -71,21 +95,15 @@ def df_from_text(path):
     df_text['title'] = df_text['sentence'].map(lambda a: check_if_title(a))
     return df_text
 
-def make_pdf_dict(directory):
-    pdf_dict = {}
-    key_dict = {}
-    for i, filename in enumerate(os.listdir(directory)):
-        if filename.endswith(".pdf"):
-            file = os.path.join(directory, filename)
-            pdf_dict[i] = df_from_text(file)
-            key_dict[i] = filename
-
-        else:
-            print("No PDF files found")
-
-    return pdf_dict, key_dict
-
 def dict_titles_with_values(data):
+    '''
+
+    Args:
+        data: This is a Dataframe with rows that have been cleaned by 'clean_text()' and columns that have been checked by 'check_if_title()'
+
+    Returns: a dictionary with filtered titles and corresponding corpus.
+
+    '''
     lst = {}
     current_title = ''
     for i,j in zip(data['title'], data['sentence']):
@@ -97,10 +115,22 @@ def dict_titles_with_values(data):
                 lst[current_title].append(j)
     return lst
 
+def make_pdf_dict(directory):
+    pdf_dict = {}
+    key_dict = {}
+    for i, filename in enumerate(os.listdir(directory)):
+        if filename.endswith(".pdf"):
+            file = os.path.join(directory, filename)
+            pdf_dict[i] = df_from_text(file)
+            key_dict[i] = filename
+        else:
+            print("No PDF files found")
+    return pdf_dict, key_dict
+
 sds_official = {
-    'identification of the substance/mixture and of the company/undertaking': ['company','product identifier','relevant identified uses of the substance or mixture and uses advised against','details of the supplier of the safety data sheet','emergency telephone number'],
+    'identification of the substance mixture and of the company undertaking': ['company','product identifier','relevant identified uses of the substance or mixture and uses advised against','details of the supplier of the safety data sheet','emergency telephone number'],
     'hazards identification': ['classification of the substance or mixture', 'label elements','other hazards'],
-    'composition/information on ingredients':['substances','mixtures'],
+    'composition information on ingredients':['substances','mixtures'],
     'first aid measures':['description of first aid measures','most important symptoms and effects, both acute and delayed','indication of any immediate medical attention and special treatment needed'],
     'firefighting measures':['extinguishing media','special hazards arising from the substance or mixture','advice for firefighters'],
     'accidental release measure':['personal precautions, protective equipment and emergency procedures','environmental precautions','methods and material for containment and cleaning up','reference to other sections'],
@@ -116,11 +146,6 @@ sds_official = {
     'other information':['date of the latest revision of the sds']
 }
 
-sds_ch1 = {
-    "1":["trade name", "product number"],
-    "2":[""]
-}
-
 '''
 Label all titles as keys and label values as values
 then try to label the corpus in the columns as keys or values
@@ -128,15 +153,31 @@ then try to label the corpus in the columns as keys or values
 '''
 
 def lemmatize_text(text):
+    '''
+
+    Args:
+        text:lemmatizes text
+
+    Returns: list of words that are lemmatized
+
+    '''
     lemmatizer = WordNetLemmatizer()
     return [lemmatizer.lemmatize(w) for w in word_tokenize(text)]
 
 def tokenize_words_sds(dict):
     '''
-    - Convert dictionary to dataframe
-    - tokenize the sentences
-    - remove stop words
-    - Lemmatize words
+
+    Args:
+        dict: Dictionary
+
+    Operation:
+        - Convert dictionary to dataframe
+        - tokenize the sentences
+        - remove stop words
+        - Lemmatize words
+
+    Returns: Dataframe
+
     '''
 
     dict = pd.DataFrame.from_dict(dict,orient='index').T
@@ -155,9 +196,6 @@ def tokenize_words_sds(dict):
         dict[f'{i}_token_lemm'] = dict[i].apply(lemmatize_text)
     dict = dict.iloc[:,n_columns:]
 
-    '''
-    Renaming columns by titles that don't have stopwords in them, and that are lemmatized.
-    '''
     columns = [column for column in dict.columns]
     columns_no_sw_lemm = []
     for i in columns:
@@ -178,9 +216,15 @@ def tokenize_words_sds(dict):
 data = tokenize_words_sds(dict_titles_with_values(df_from_text(directory)))
 sds_tokenized = tokenize_words_sds(sds_official)
 
-# print(data)
-
 def unique(list1):
+    '''
+
+    Args:
+        list1: List of strings/values
+
+    Returns: a list of unique values in the input list.
+
+    '''
     # intilize a null list
     unique_list = []
     # traverse for all elements
@@ -190,86 +234,93 @@ def unique(list1):
             unique_list.append(x)
     return unique_list
 
+def get_list_of_columns(df_data, df_sds):
+    '''
 
-columns_data = [column for column in data.columns]
-columns_sds = [column for column in sds_tokenized.columns]
-tokenized_columns_data = [word_tokenize(i) for i in columns_data]
-tokenized_columns_sds = [word_tokenize(i) for i in columns_sds]
+    Args:
+        df_data:
+        df_sds:
 
-lst = []
-for w1 in tokenized_columns_sds:
-    for w2 in tokenized_columns_data:
-        if nltk.edit_distance(w1, w2) <= 1 and w1 not in lst:
-            lst.append(w1)
-lst = [" ".join(word) for word in lst]
+    Returns: It has to return a
 
-print(len(lst))
+    '''
 
-'''Dit iterate over 2 dataframes en als Levenshtein disctance '''
+    columns_data = [column for column in df_data.columns]
+    columns_sds = [column for column in df_sds.columns]
+    tokenized_columns_data = [word_tokenize(i) for i in columns_data]
+    tokenized_columns_sds = [word_tokenize(i) for i in columns_sds]
 
-# len_data = len(data.columns)
-# df_data = pd.concat([data, sds_tokenized], axis=1)
-# df_data_selection = df_data.iloc[:,0:len_data]
-# df_sds_tokenized_selection = df_data.iloc[:,len_data: len_data+len_data+1]
-# print(df_data_selection)
-# print(df_sds_tokenized_selection)
+    # print(tokenized_columns_data)
+    # print(len(tokenized_columns_data))
+    # print("--------------------")
+    # print(tokenized_columns_sds)
+    # print(len(tokenized_columns_sds))
+    # print("--------------------")
 
-keyList = np.arange(0, len(sds_tokenized))
-dicts =  dict.fromkeys(keyList, None)
+    lst = []
+    for w1 in tokenized_columns_data:
+        for w2 in tokenized_columns_sds:
+            if nltk.edit_distance(w1, w2) <= 2 and w1 not in lst:
+                lst.append(w1)
+    lst = [" ".join(word) for word in lst]
 
-for range in keyList:
-    list_of_lists = []
-    for zin_a in sds_tokenized.iloc[:,range]:
-        # print(zin_a)
-        # print('-----')
-        for zin_b in data.iloc[:,range]:
-            # print(zin_b)
-            for word_a in zin_a:
-                for word_b in zin_b:
-                    if nltk.edit_distance(word_a, word_b) <= 1 and zin_b not in list_of_lists:
-                        list_of_lists.append(zin_b)
+    # print(len(lst))
+    # print("--------------------")
+    # print(lst)
+    # print("--------------------")
+    # print(len(df_sds))
+    return lst
 
-    lst = [" ".join(word) for word in list_of_lists]
-    dicts[range] = lst
+# print(get_list_of_columns(data, sds_tokenized))
 
+def get_dict_keys(df_data, df_sds):
+    '''
 
-print(dicts)
+    Args:
+        df_data: This is the input pdf file as a dataframe, It has to be sorted per column that is the same column for df_sds.
+        df_sds: This is the Safety Data Sheet official format file as a dataframe.
 
+    Returns: Dictionary of df_data's filtered keys per heading.
 
+    '''
+    keyList = np.arange(0, len(df_sds))
+    dicts =  dict.fromkeys(keyList, None)
 
+    for range in keyList:
+        list_of_lists = []
+        for zin_a in df_sds.iloc[:,range]:
+            for zin_b in df_data.iloc[:,range]:
+                for word_a in zin_a:
+                    for word_b in zin_b:
+                        if nltk.edit_distance(word_a, word_b) <= 2 and zin_b not in list_of_lists:
+                            list_of_lists.append(zin_b)
 
+        list_of_lists_filtered = []
+        for zin in list_of_lists:
+            not_digits = []
+            for word in zin:
+                if not word.isdigit():
+                    not_digits.append(word)
+            list_of_lists_filtered.append(not_digits)
 
+        list_of_lists_filtered_no_small_words = []
+        for zin in list_of_lists_filtered:
+            no_small = []
+            for word in zin:
+                if not len(word) <= 3:
+                    no_small.append(word)
+            list_of_lists_filtered_no_small_words.append(no_small)
 
+        list_of_lists_no_single_words = []
+        for zin in list_of_lists_filtered_no_small_words:
+            no_single_word = []
+            if not len(zin) <= 1:
+                no_single_word.append(zin)
+            list_of_lists_no_single_words.append(no_single_word)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        # lst = [" ".join(word) for word in list_of_lists_no_single_words]
+        dicts[range] = list_of_lists_no_single_words
+    return dicts
 
 
 

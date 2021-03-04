@@ -4,6 +4,7 @@ import textract as tx
 import pandas as pd
 import numpy as np
 import itertools
+import json
 import re
 import os
 import nltk
@@ -146,6 +147,10 @@ sds_official = {
     'other information':['date of the latest revision of the sds']
 }
 
+# sds_titles = ['identification of the substance mixture and of the company undertaking', 'hazards identification', 'composition information on ingredients']
+
+
+
 '''
 Label all titles as keys and label values as values
 then try to label the corpus in the columns as keys or values
@@ -216,6 +221,7 @@ def tokenize_words_sds(dict):
 data = tokenize_words_sds(dict_titles_with_values(df_from_text(directory)))
 sds_tokenized = tokenize_words_sds(sds_official)
 
+
 def unique(list1):
     '''
 
@@ -225,11 +231,9 @@ def unique(list1):
     Returns: a list of unique values in the input list.
 
     '''
-    # intilize a null list
+
     unique_list = []
-    # traverse for all elements
     for x in list1:
-        # check if exists in unique_list or not
         if x not in unique_list:
             unique_list.append(x)
     return unique_list
@@ -241,7 +245,7 @@ def get_list_of_columns(df_data, df_sds):
         df_data:
         df_sds:
 
-    Returns: It has to return a
+    Returns: The df_data has to contain
 
     '''
 
@@ -250,28 +254,58 @@ def get_list_of_columns(df_data, df_sds):
     tokenized_columns_data = [word_tokenize(i) for i in columns_data]
     tokenized_columns_sds = [word_tokenize(i) for i in columns_sds]
 
-    # print(tokenized_columns_data)
-    # print(len(tokenized_columns_data))
-    # print("--------------------")
-    # print(tokenized_columns_sds)
-    # print(len(tokenized_columns_sds))
-    # print("--------------------")
-
     lst = []
     for w1 in tokenized_columns_data:
         for w2 in tokenized_columns_sds:
-            if nltk.edit_distance(w1, w2) <= 2 and w1 not in lst:
+            if nltk.edit_distance(w1, w2) <= 1:
                 lst.append(w1)
-    lst = [" ".join(word) for word in lst]
+    lst = unique(lst)
 
-    # print(len(lst))
-    # print("--------------------")
-    # print(lst)
-    # print("--------------------")
-    # print(len(df_sds))
-    return lst
+    list_columns_data = []
+    for word in columns_data:
+        for w1 in lst:
+            for w2 in w1:
+                if w2 in word:
+                    list_columns_data.append(word)
+    list_columns_data = unique(list_columns_data)
 
-# print(get_list_of_columns(data, sds_tokenized))
+    list_columns_sds = []
+    for word in columns_sds:
+        for w1 in lst:
+            for w2 in w1:
+                if w2 in word:
+                    list_columns_sds.append(word)
+    list_columns_sds = unique(list_columns_sds)
+
+    list_data_filtered = []
+    for zin in list_columns_data:
+        if not zin.isdigit():
+            list_data_filtered.append(zin)
+
+    list_sds_filtered = []
+    for zin in list_columns_sds:
+        if not zin.isdigit():
+            list_sds_filtered.append(zin)
+    print(list_data_filtered)
+    print(list_sds_filtered)
+
+
+    # df_sds = df_sds.loc[:, list_columns_sds]
+    # df_data = df_data.loc[:, list_columns_data]
+    # return df_data.T, df_sds.T
+
+
+print(get_list_of_columns(data, sds_tokenized))
+
+
+
+
+
+
+
+
+
+
 
 def get_dict_keys(df_data, df_sds):
     '''
@@ -283,7 +317,10 @@ def get_dict_keys(df_data, df_sds):
     Returns: Dictionary of df_data's filtered keys per heading.
 
     '''
-    keyList = np.arange(0, len(df_sds))
+    keyList = np.arange(0, len(df_sds), dtype=int)
+    keyList = [str(i) for i in keyList]
+    # print(keyList)
+    # print(len(df_sds.columns))
     dicts =  dict.fromkeys(keyList, None)
 
     for range in keyList:
@@ -322,6 +359,10 @@ def get_dict_keys(df_data, df_sds):
         dicts[range] = list_of_lists_no_single_words
     return dicts
 
+# print(get_dict_keys(data, sds_tokenized))
 
+#
+# with open('xyz.json', 'w') as json_file:
+#     json.dump(get_dict_keys(data,sds_tokenized), json_file)
 
 
